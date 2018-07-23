@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var myLabel: UILabel!
     
     var myInt = Int()
+    let message = "hello"
     
 
     @IBOutlet weak var myImage: UIImageView!
@@ -30,7 +31,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         myInt = 10
-        // Do any additional setup after loading the view, typically from a nib.
+        print(message)
     }
 
     override func didReceiveMemoryWarning() {
