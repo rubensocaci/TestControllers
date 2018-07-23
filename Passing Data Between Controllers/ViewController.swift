@@ -28,11 +28,13 @@ class ViewController: UIViewController {
     }
     
 
+    @IBOutlet weak var text: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         myInt = 10
         print(message)
-        print(reverse(text: "stressed"))
+        text.text = "test"
         
     }
     func reverse(text: String) -> String {
