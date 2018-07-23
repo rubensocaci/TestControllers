@@ -32,8 +32,12 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         myInt = 10
         print(message)
+        print(reverse(text: "stressed"))
+        
     }
-
+    func reverse(text: String) -> String {
+        return String(text.reversed())
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
